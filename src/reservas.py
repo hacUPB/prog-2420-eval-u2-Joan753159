@@ -4,5 +4,5 @@ def main():
     pass # borra esta línea cuando con inicies tu código
 
 
-if __name__ == "__main__":
+if __name__ = "__main__":
     main()
