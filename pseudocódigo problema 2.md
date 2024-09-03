@@ -2,7 +2,7 @@
 #### (mas complicado que el anterior)
 
 ```
-INICIO
+Inicio
 
 // Paso 1: Solicitar datos de entrada
 print "Ingrese la altitud inicial del satélite (en kilómetros):"
@@ -40,11 +40,11 @@ Mientras altitud_actual > altitud_minima_seguridad
         print "Número de órbitas completadas: (orbita)"
         TERMINAR
 
-FIN MIENTRAS
+Fin si
 
 // Si el satélite ha reingresado en la atmósfera
 print "El satélite ha reingresado en la atmósfera terrestre y se ha desintegrado."
-print "Número total de órbitas completadas: " + orbita
+print "Número total de órbitas completadas:   orbita"
 
-FIN
+Fin
 ```
