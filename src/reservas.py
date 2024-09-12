@@ -9,7 +9,7 @@ apellido = input("Por favor, ingrese su apellido: ")
 print(f"{titulo} {nombre} {apellido}, ¡Bienvenido a FastFast Airlines!")
 
 # Paso 2: Selección de vuelo
-print("Seleccione su ciudad de origen (1. Medellín, 2. Bogotá, 3. Cartagena):")
+print("Seleccione su ciudad de origen (escriba el número) (1. Medellín, 2. Bogotá, 3. Cartagena):")
 ciudad_origen_opcion = input()
 ciudad_origen = ""
 if ciudad_origen_opcion == "1":
@@ -19,7 +19,7 @@ elif ciudad_origen_opcion == "2":
 elif ciudad_origen_opcion == "3":
     ciudad_origen = "Cartagena"
 
-print("Seleccione su ciudad de destino (escriba el número)(1. Medellín, 2. Bogotá, 3. Cartagena):")
+print("Seleccione su ciudad de destino (escriba el número) (1. Medellín, 2. Bogotá, 3. Cartagena):")
 ciudad_destino_opcion = input()
 ciudad_destino = ""
 if ciudad_destino_opcion == "1":
@@ -35,7 +35,7 @@ dia_mes = input("Ingrese el día del mes en que desea viajar (1-30): ")
 # Paso 3: Determinar la distancia entre ciudades
 if ciudad_origen == ciudad_destino:
     print("El origen y el destino no pueden ser la misma ciudad.")
-    exit()
+    exit() # debería repetir el proceso y no cerrar, el profesor dice que con while control y continue
 
 distancia = 0
 if (ciudad_origen == "Medellín" and ciudad_destino == "Bogotá") or (ciudad_origen == "Bogotá" and ciudad_destino == "Medellín"):

@@ -33,4 +33,4 @@ else:
     print("El satélite ha reingresado en la atmósfera terrestre y se ha desintegrado.")
     print(f"Número total de órbitas completadas: {orbita}")
 
-# Agradecimiento a Nelson Miranda por ayuda en redacción del código
+# Agradecimiento a Nelson Miranda por la ayuda en redacción del código
