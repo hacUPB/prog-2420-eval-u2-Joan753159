@@ -1,3 +1,5 @@
+#sin terminar
+
 import random
 
 # Paso 1: Información del usuario
