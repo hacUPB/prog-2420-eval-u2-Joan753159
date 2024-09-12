@@ -19,7 +19,7 @@ elif ciudad_origen_opcion == "2":
 elif ciudad_origen_opcion == "3":
     ciudad_origen = "Cartagena"
 
-print("Seleccione su ciudad de destino (1. Medellín, 2. Bogotá, 3. Cartagena):")
+print("Seleccione su ciudad de destino (escriba el número)(1. Medellín, 2. Bogotá, 3. Cartagena):")
 ciudad_destino_opcion = input()
 ciudad_destino = ""
 if ciudad_destino_opcion == "1":
@@ -79,4 +79,4 @@ print(f"Destino: {ciudad_destino}")
 print(f"Fecha de vuelo: {dia_semana} {dia_mes}")
 print(f"Precio del boleto: $ {precio}")
 print(f"Asiento asignado: {asiento_asignado}")
-# Agradecimiento a Nelson Miranda por ayuda en redacción del código
+# Agradecimiento a Nelson Miranda por la ayuda en redacción del código
