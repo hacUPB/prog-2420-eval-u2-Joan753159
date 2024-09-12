@@ -44,7 +44,7 @@ Fin si
 
 // Si el satélite ha reingresado en la atmósfera
 print "El satélite ha reingresado en la atmósfera terrestre y se ha desintegrado."
-print "Número total de órbitas completadas:   orbita"
+print "Número total de órbitas completadas:   orbitas"
 
 Fin
 ```
